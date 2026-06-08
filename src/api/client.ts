@@ -17,7 +17,7 @@ import axios, { AxiosError, AxiosResponse } from "axios";
 // Fallback sang backend cũ nếu biến môi trường không tồn tại.
 export const BASE_URL =
   process.env.EXPO_PUBLIC_API_URL ||
-  "https://hcmcrainvision-backend-r84u.onrender.com";
+  "https://hcmc-rain-vision-api-209847686834.asia-southeast1.run.app";
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
