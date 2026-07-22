@@ -81,8 +81,8 @@ const apiCall = async (
       // If there's text but it's not JSON, use it as message
       responseData = { message: text };
     } else {
-      // Empty response is OK for successful requests
-      responseData = { message: "Success" };
+      // Empty response is OK for successful requests, but empty errors should not say "Success"
+      responseData = { message: response.ok ? "Success" : "" };
     }
 
     // Check HTTP status - throw error only for actual failures
