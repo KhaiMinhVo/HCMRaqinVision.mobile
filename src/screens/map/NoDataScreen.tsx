@@ -19,7 +19,7 @@ export default function NoDataScreen({ navigation }: any) {
               No Data Available
             </Heading>
             <Text className="text-base text-gray-600 text-center leading-6 mb-4">
-              There's no rain data available at the moment. Please check back
+              There’s no rain data available at the moment. Please check back
               later.
             </Text>
             <Button onPress={() => navigation.goBack()} className="bg-blue-600">
