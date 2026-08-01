@@ -1,0 +1,48 @@
+
+> mobile@1.0.0 start
+> expo start --clear
+
+env: load .env
+env: export EXPO_PUBLIC_API_URL
+Starting project at D:\FPTU\SWD\mobile
+React Compiler enabled
+Starting Metro Bundler
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Android .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Android .\index.js ░░░░░░░░░░░░░░░░  1.0% (1/1)
+Android .\index.js ▓▓░░░░░░░░░░░░░░ 14.8% ( 94/257)
+Android .\index.js ▓▓▓▓▓▓▓▓▓▓░░░░░░ 66.8% (574/769)
+Android .\index.js ▓▓▓▓▓▓▓▓▓▓░░░░░░ 66.8% ( 750/2697)
+Android .\index.js ▓▓▓▓▓▓▓▓▓▓░░░░░░ 66.8% (2018/2792)
+Android .\index.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 92.3% (2987/3110)
+Android .\index.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (3534/3535)
+Android Bundled 25340ms index.js (3535 modules)
+ WARN  SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/th3rdwave/react-native-safe-area-context
+ LOG  API POST https://hcmc-rain-vision-api-209847686834.asia-southeast1.run.app/api/Auth/login {"password": "123456", "username": "khaivpmse184623@fpt.edu.vn"}
+ LOG  Login response: {"role": "User", "token": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoia2hhaXZwbXNlMTg0NjIzQGZwdC5lZHUudm4iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJVc2VyIiwiZXhwIjoxNzg0ODIxMDQzfQ.QJDNhoN87PGj54D8kly8NGDi7Di573UWVbjQ4W5uhZJeE6wh97sAniK7oO_oKXFiPuPhWQa7bFyJXrIpuD0fSw", "username": "khaivpmse184623@fpt.edu.vn"}
+ LOG  Weather heatmap points: 1
+ WARN  [API] POST /api/Camera/CAM_BT_002/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_BT_002/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_BT_001/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_BT_001/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_Q1_001/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_Q10_001/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_Q1_001/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_Q10_001/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_Q6_001/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_TB_001/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_Q3_001/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_Q1_002/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_Q6_001/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_TB_001/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_Q3_001/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_Q1_002/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_TD_002/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_TD_001/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_TD_002/run-ai-test → 502
+ WARN  [API] POST /api/Camera/CAM_TD_001/run-ai-test → 502
+Android .\index.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Android Bundled 624ms index.js (1 module)
+ WARN  SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/th3rdwave/react-native-safe-area-context
